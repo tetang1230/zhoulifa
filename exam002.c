@@ -38,7 +38,8 @@ int main(int argc, char **argv)
 							  break;
 						  default:
 							  break;
-							  &160;            }
+							  //&160;            
+						}
 							  switch (pri) {
 								  case red:
 									  printf("%-10s", "red");
