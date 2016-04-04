@@ -30,6 +30,7 @@ int main(int argc, char ** argv)
 {
 	char * p;
 	p = readline("请输入:");
+	//若尚未读取到字符就遇到EOF，则该函数返回NULL；否则返回由malloc()分配的命令行内存，故调用结束后应通过free()显式地释放内存。
 	printf("%s\n", p);
 	free(p);
 	return 0;
